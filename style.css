@@ -1,0 +1,112 @@
+#prima-riga .qr {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+}
+
+#prima-riga .qr .qb {
+    width:50px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+#prima-riga .qr .qv {
+    width:50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+
+#seconda-riga {
+    margin-top: 50px;
+}
+
+#seconda-riga .qr {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+}
+
+#seconda-riga .qr .qb1 {
+    width:50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#seconda-riga .qr .qb2 {
+    width:50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#seconda-riga .qr .qb3 {
+    width:50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+#terza-riga {
+    margin-top: 50px;
+}
+
+#terza-riga .qv {
+    background-color: green;
+    width: 800px;
+    height: 400px;
+}
+
+
+#terza-riga .qv .qb {
+    width:250px;
+    height: 250px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+#terza-riga .qv .qb .as {
+    width:50px;
+    height: 50px;
+    background-color: red;
+}
+
+#terza-riga .qv .qb .bd {
+    width:50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#terza-riga .qv .qb .sopra {
+    width:50px;
+    height: 50px;
+    background-color: red;
+}
+
+
+#terza-riga .qv .qb .sotto {
+    width:50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    left: 10px;
+}
+
